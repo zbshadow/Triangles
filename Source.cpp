@@ -1,3 +1,12 @@
+/*
+Program name: Triangles
+Author: Brice Bayless
+Date last Updated: 10/5/2018
+Purpose: Receive 3 lengths and determin if they qualify as a traingle and if so is it a right triangle.
+*/
+
+
+
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -8,6 +17,7 @@ int main () {
 	double sideC;
 	bool isTriangle(double sideA, double sideB, double sideC);
 	bool isRightTriangle(double sideA, double sideB, double sideC);
+
 	//cout what is the length of the first side
 	cout << "Inpute the length of the first side: " << endl;
 	//cin first side
@@ -35,9 +45,9 @@ int main () {
 		//if first side squared + second side squared equals third side squared
 		if (isRightTriangle(sideA, sideB, sideC)) 
 		{
+			//cout this is a right triangle
 			cout << "This is a right Triangle!" << endl;
 		}
-			//cout this is a right triangle
 		//else
 		else
 		{
