@@ -31,14 +31,6 @@ int main () {
 	//cin third side
 	cin >> sideC;
 
-	/*
-	The Trinagle Inequality Theorem
-	If an object has threes sides and any two sides sum is greater thant he third side then it is a triangle
-	All 3 possible sets of sides must be greater than the third side
-	A+B>C
-	B+C>A
-	C+A>B
-	*/
 
 	if (isTriangle(sideA, sideB, sideC)) 
 	{
